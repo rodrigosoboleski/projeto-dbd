@@ -47,6 +47,7 @@
 
     .dados .div1 p{
         margin-left: 15px;
+        font-size: 1em;
     }
     
     .dados > .div1{
@@ -112,7 +113,6 @@
     
     .td-img{
         width: 100px;
-        padding: 10px;
     }
     
     .td-text{
