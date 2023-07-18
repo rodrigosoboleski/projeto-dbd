@@ -98,6 +98,10 @@ header {
     justify-content: center;
 }
 
+.killer > img {
+    overflow: hidden;
+}
+
 .killer-sobre {
     background-image: linear-gradient(#aa1a18, #5c0c0b);
     background-color: #8d100e;
@@ -227,14 +231,14 @@ td {
     padding: 10px;
 }
 
-footer {
+footer{
     text-align: center;
-    margin-top: 30px;
+    margin: 30px;
     padding: 5px;
     font-size: 0.8em;
 }
 
-footer>p {
+footer > p  {
     font-family: monospace;
 }
 
@@ -242,6 +246,6 @@ footer a {
     font-family: monospace;
 }
 
-footer a:hover {
+footer a:hover{
     color: #b12523;
 }
