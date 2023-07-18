@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/mobile-first.css">
+    <link rel="stylesheet" href="estilos/media-query.css"> 
+</head>
+
+<body>
+    <header>
+        <img src="imagens/Deadbydaylight_logo.webp" alt="">
+    </header>
+
+    <section>
+        <div class="container">
+            <a href="paginas/killer-info.html">
+                <div class="card">
+                    <img src="imagens/1-trapper/trapper-card.png" alt="card-o_caçador">
+                    <div class="texto">
+                        <h2>O Caçador</h2>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="card">
+                    <a href="paginas/wraith-info.html"><img src="imagens/2-wraith/wraith-card.png" alt="card-o_espectro"></a>
+                    <div class="texto">
+                        <h2>O Espectro</h2>
+                    </div>
+                </div>
+            </a>
+            <a href="personagens/trapper.html">
+                <div class="card">
+                    <img src="imagens/hillbilly.webp" alt="card-o_caipira">
+                    <div class="texto">
+                        <h2>O Caipira</h2>
+                    </div>
+                </div>
+            </a>
+            <a href="personagens/trapper.html">
+                <div class="card">
+                    <img src="imagens/nurse.webp" alt="card-a_infermeira">
+                    <div class="texto">
+                        <h2>A Infermeira</h2>
+                    </div>
+                </div>
+            </a>
+
+    </section>
+    
+
+<!--========================================================================================================================================-->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+</body>
+
+
+<footer>
+    <p>Proejto Pessoal criado por <a href="https://github.com/rodrigosoboleski" target="_blank">Rodrigo Augusto Soboleski.</a></p>
+</footer>
+
+</html>
