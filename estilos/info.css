@@ -41,6 +41,10 @@ header {
     padding-top: 10px;
 }
 
+.wpp{
+    display: none;
+}
+
 .logo {
     display: block;
     width: 60%;
