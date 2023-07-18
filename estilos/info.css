@@ -123,86 +123,32 @@ header {
     text-indent: 20px;
 }
 
+.div1 {
+    margin: auto;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+.div1 p {
+    line-height: 10px;
+    font-size: 0.9em;
+}
+
 span {
     color: orange;
     font-weight: bold;
 }
 
-
-
 section.dados {
-    width: 83%;
+    background-image: linear-gradient(#74110f, #420403);
+    width: 75%;
     margin: auto;
+    margin-top: 30px;
+    padding: 20px;
     border: none;
     border-radius: 10px;
-    background-image: linear-gradient(#74110f, #420403);
-
-
-    display: flex;
-    justify-content: center;
-}
-
-.dados>.div1 {
-    width: 60%;
-    padding-top: 40px;
-}
-
-.dados .div1 p {
-    line-height: 10px;
-    font-size: 0.9em;
-}
-
-section.dados div {
-    margin: 10px;
-}
-
-
-section.dados>.div2 {
-    width: 40%;
     text-align: center;
 }
-
-#abrir-popup:checked~#conteudo {
-    display: block;
-}
-
-#fechar-popup:checked~#conteudo,
-#fechar-popup:checked~#fechar-popup-btn {
-    display: none;
-}
-
-#abrir-popup-btn {
-    display: block;
-    cursor: pointer;
-}
-
-#fechar-popup-btn {
-    background-color: #000000c5;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-}
-
-#conteudo {
-    box-sizing: border-box;
-    position: fixed;
-    width: 80%;
-    left: max(calc(50vw - 380px / 2), 4vw);
-    top: calc(30vh - 80px);
-
-    font-family: var(--font2);
-    text-align: center;
-
-    text-indent: 20px;
-
-    padding: 22px;
-    background-image: linear-gradient(#aa1a18, #460605);
-    border-radius: 8px;
-    box-shadow: 2px 2px 10px  #000000;
-}
-
 
 /*====================================================*/
 section.perks {
