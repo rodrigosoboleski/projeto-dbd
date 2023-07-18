@@ -101,8 +101,9 @@ header {
 .killer-sobre {
     background-image: linear-gradient(#aa1a18, #5c0c0b);
     background-color: #8d100e;
-    width: 360px;
+    width: 80%;
     margin: auto;
+    margin-top: 20px;
     border-radius: 10px;
     padding: 1px 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.582);
@@ -126,7 +127,7 @@ span {
 
 
 section.dados {
-    width: 375px;
+    width: 83%;
     margin: auto;
     border: none;
     border-radius: 10px;
@@ -171,7 +172,7 @@ section.dados>.div2 {
 }
 
 #fechar-popup-btn {
-    background-color: #000000b2;
+    background-color: #000000c5;
     position: fixed;
     top: 0;
     left: 0;
@@ -184,7 +185,7 @@ section.dados>.div2 {
     position: fixed;
     width: 80%;
     left: max(calc(45vw - 380px / 2), 4vw);
-    top: calc(50vh - 80px);
+    top: calc(40vh - 80px);
 
     font-family: var(--font2);
     text-align: center;
@@ -194,7 +195,7 @@ section.dados>.div2 {
     padding: 22px;
     background-image: linear-gradient(#aa1a18, #460605);
     border-radius: 8px;
-    box-shadow: 0px 5px 15px -5px #000000;
+    box-shadow: 2px 2px 10px  #000000;
 }
 
 
@@ -205,7 +206,7 @@ section.perks {
 }
 
 table {
-    width: 375px;
+    width: 80%;
     margin: auto;
     text-align: center;
     border-collapse: collapse;
@@ -231,7 +232,7 @@ footer {
     text-align: center;
     margin-top: 30px;
     padding: 5px;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 footer>p {
