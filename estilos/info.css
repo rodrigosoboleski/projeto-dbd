@@ -47,7 +47,7 @@ header {
 }
 
 .logo img {
-    width: 200px;
+    margin-left: 5%;
 }
 
 .home {
@@ -144,11 +144,12 @@ section.dados {
 
 .dados>.div1 {
     width: 60%;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .dados .div1 p {
     line-height: 10px;
+    font-size: 0.9em;
 }
 
 section.dados div {
